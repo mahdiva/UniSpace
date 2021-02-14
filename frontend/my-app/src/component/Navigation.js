@@ -6,6 +6,7 @@ import { SidebarItem } from './SidebarItem';
 import './Navigation.css';
 import { IconContext } from 'react-icons';
 
+
 //[https://www.youtube.com/watch?v=CXa0f4-dWi4]
 function Navigation() {
     const [sidebar, setSidebar] = useState(false);

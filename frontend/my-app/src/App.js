@@ -7,16 +7,19 @@ import Navigation from "./component/Navigation";
 // import {Router} from "@material-ui/icons";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Calendar from "./pages/Calendar";
-import './bootstrap/dist/css/bootstrap.min.css';
+import Course from "./pages/Course";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Sticky from 'react-stickynode';
 
 function App() {
     return (
         <>
             <Router>
-                <Navigation />
+                <Sticky>
+                <Navigation /></Sticky>
                 <Switch>
                     <Route path='/home' exact component={Dashboard} />
-                    <Route path='/courses' exact component={Courses} />
+                    <Route path='/course' exact component={Course} />
                     <Route path='/calendar' exact component={Calendar} />
                 </Switch>
             </Router>
