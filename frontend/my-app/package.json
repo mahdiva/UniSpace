@@ -3,14 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@progress/kendo-react-dropdowns": "^4.3.0",
     "@remotelock/react-week-scheduler": "^3.5.8",
     "@syncfusion/ej2-react-schedule": "^18.4.42",
     "@syncfusion/ej2-schedule": "^18.4.42",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.1",
+    "bootstrap": "^4.6.0",
     "moment": "^2.29.1",
     "react": "^16.8.0",
+    "react-bootstrap": "^1.4.3",
     "react-dom": "^16.8.0",
     "react-icons": "^4.2.0",
     "react-scripts": "4.0.2",
@@ -46,6 +49,7 @@
   "devDependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
+    "@progress/kendo-react-layout": "^4.3.0",
     "@syncfusion/ej2-react-base": "^18.4.41",
     "clsx": "^1.1.1",
     "react-router-dom": "^5.2.0"

@@ -7,7 +7,7 @@ import Navigation from "./component/Navigation";
 // import {Router} from "@material-ui/icons";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Calendar from "./pages/Calendar";
-
+import './bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
     return (
